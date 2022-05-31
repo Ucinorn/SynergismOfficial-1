@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" class="h-100 w-100">
+<html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="utf-8" http-equiv="encoding">
     <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="16x16">
-    <!-- <link rel="stylesheet" href="Synergism.css"> -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="Synergism.css">
     <script src="./dist/out.js" defer></script>
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
-<body class="bg-dark h-100 w-100" >
+<body class="dark loading">
+    <div id="transparentBG" alt="transparentBG" label="transparentBG"></div>
     <div id="notification" alt="notification" label="notification">
         <div id="notifx" alt="notifx" label="notifx">
             <img src="Pictures/X.png" height="16px" width="16px" />
